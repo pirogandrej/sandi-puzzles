@@ -1,0 +1,203 @@
+body
+{
+    width: 100%;
+}
+
+.button_original {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #acf5ff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 190px;
+    height: 50px;
+}
+
+.button_original:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    width: 190px;
+    height: 50px;
+}
+
+.dis.droppable
+{
+    opacity: 1;
+    background-color: #cffffd;;
+}
+
+.div-all
+{
+    float: left;
+    position: relative;
+    margin-top: 0;
+}
+
+#div-background{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+
+}
+
+#div-main{
+
+    background-color: #e3e3e3;
+    margin-top: 10px;
+    padding: 0;
+    position: relative;
+
+}
+
+.div-pic-i
+{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.div-pic-i img{
+
+    width: 100px;
+    height: 100px;
+}
+
+.draggable, .droppable
+{
+    font-size: large;
+    /*border: 2px solid darkblue;*/
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.droppable
+{
+    height: 150px;
+    width: 150px;
+    background-color: #cffffd;
+}
+
+.droppable.active
+{
+    /*border: 2px dashed green;*/
+}
+
+.droppable.hover
+{
+    background-color: #fbff8a;
+}
+
+.fitDrop-all
+{
+    position: absolute;
+}
+
+#games_all
+{
+    position: relative;
+    margin: 40px auto;
+}
+
+#games_all a{
+
+    color:black;
+
+}
+
+html{
+    background-color: #3c4452;;
+}
+
+.modal-content
+{
+    background-color: #ededed;
+    color: #000000;
+}
+
+.modal-header img
+{
+    margin: 50px;
+    width: 200px;
+}
+
+#modal_first
+{
+    margin-top: 200px;
+}
+
+.modal-title
+{
+    color: #111a5f;
+}
+
+#modal-title-error
+{
+    color: #b72804;
+}
+
+#modal-title-ok
+{
+    color: #1aae0c;
+}
+
+.picture-all
+{
+    margin-bottom: 20px;
+}
+
+#ready_button{
+    position: relative;
+}
+
+.span_question{
+    position: absolute;
+    top: 40%;
+    transform: translate(-55%, -50%);
+    color: blue;
+    font-size: 30px;
+}
+
+#start_div
+{
+    position: relative;
+    margin: 60px auto;
+    width: 100%;
+}
+
+#timer
+{
+    font-size: 30px;
+    color: dodgerblue;
+    padding-right: 10px;
+}
+
+#timer_button
+{
+    width: 150px;
+    margin-right: 160px;
+}
+
+#timer_zone
+{
+    background-color: #a2ff9d;
+    margin: 20px auto;
+    position: relative;
+    padding-left: 20px;
+    text-align: center;
+    border: 2px solid gray;
+    box-shadow: 0 0 15px 2px rgba(10, 0, 255, 0.4);
+}

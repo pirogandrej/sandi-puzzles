@@ -1,0 +1,79 @@
+#btnReady {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+#btnSave {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 200px;
+}
+
+.crop-box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: #555961;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#div-main{
+    background-color: #3c4452;
+}
+
+#footer_crop {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgb(53, 60, 72);
+    color: #fff;
+    width: 85%;
+    height: 120px;
+    overflow: auto;
+    margin-left: 245px;
+}
+
+html{
+    background-color: #3c4452;
+}
+
+#imagePic1{
+    overflow: auto;
+    position: relative;
+    height:650px;
+}
+
+#movediv{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0.5;
+    background-color: rgba(121, 252, 227, 0.87);
+    height: 150px;
+    width: 150px;
+}
+
+select.change_game_visible{
+    margin-top:0;
+    width:135px;
+}
+
+select.change_game_visible option{
+    color:white;
+}
+
+td img{
+    height: 100px;
+}
+
+
+
+
+
+
+
