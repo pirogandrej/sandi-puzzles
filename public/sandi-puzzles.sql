@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jun 26, 2018 at 04:52 PM
+-- Generation Time: Jun 26, 2018 at 05:30 PM
 -- Server version: 5.7.19
 -- PHP Version: 7.1.7
 
@@ -88,7 +88,8 @@ INSERT INTO `pictures` (`id`, `author_id`, `title`, `image_main`, `image_main_mi
 (3, 21, 'game_1', 'a0e4037946433791ebcb07a9e317dc95.jpg', 'mini_a0e4037946433791ebcb07a9e317dc95.jpg', 10, 150, 1000, 563, 1, '2018-06-26 08:40:50', '2018-06-26 05:40:50'),
 (4, 21, 'game_1', 'a3ca08a97a2e8bee72ee8ceafd19a80e.jpg', 'mini_a3ca08a97a2e8bee72ee8ceafd19a80e.jpg', 5, 100, 1000, 666, 1, '2018-06-26 15:48:40', '2018-06-26 12:48:40'),
 (5, 21, 'game_1', 'fdfa16c13b9f1a245ba709442f041cee.jpg', 'mini_fdfa16c13b9f1a245ba709442f041cee.jpg', 3, 150, 700, 700, 1, '2018-06-26 16:24:24', '2018-06-26 13:24:24'),
-(6, 21, 'game_1', '145dfc21e38cb7d5cdf7bcc7ca777562.jpg', 'mini_145dfc21e38cb7d5cdf7bcc7ca777562.jpg', 3, 150, 700, 700, 1, '2018-06-26 16:43:06', '2018-06-26 13:43:06');
+(6, 21, 'game_1', '145dfc21e38cb7d5cdf7bcc7ca777562.jpg', 'mini_145dfc21e38cb7d5cdf7bcc7ca777562.jpg', 3, 150, 700, 700, 1, '2018-06-26 16:43:06', '2018-06-26 13:43:06'),
+(7, 21, 'game_1', 'cf9ff0223e6c6ec6d59483ab5a6c3b60.jpg', 'mini_cf9ff0223e6c6ec6d59483ab5a6c3b60.jpg', 3, 150, 1000, 666, 1, '2018-06-26 17:28:10', '2018-06-26 14:28:10');
 
 -- --------------------------------------------------------
 
@@ -116,7 +117,8 @@ INSERT INTO `picture_1s` (`id`, `pic_id`, `path_part`, `x1`, `y1`, `created_at`,
 (3, 3, '937e845709d73787c8ef873dd4f95cc6', 0.088, 0.017762, '2018-06-26 05:47:31', '2018-06-26 05:47:31'),
 (4, 4, '4fd2d72e71fba88f42fa9ec79a0b5317', 0.125, 0.193694, '2018-06-26 12:48:43', '2018-06-26 12:48:43'),
 (5, 5, 'fed64d76d9d3dfb605de689f8887c0f3', 0.128571, 0.1, '2018-06-26 13:24:26', '2018-06-26 13:24:26'),
-(6, 6, '4b4366ff3ab408e43181256b54653aae', 0.0614286, 0.05, '2018-06-26 13:43:09', '2018-06-26 13:43:09');
+(6, 6, '4b4366ff3ab408e43181256b54653aae', 0.0614286, 0.05, '2018-06-26 13:43:09', '2018-06-26 13:43:09'),
+(7, 7, '9353d4f41da60fcbf135fa2d1dde82b9', 0.096, 0.166667, '2018-06-26 14:28:12', '2018-06-26 14:28:12');
 
 -- --------------------------------------------------------
 
@@ -144,7 +146,8 @@ INSERT INTO `picture_2s` (`id`, `pic_id`, `path_part`, `x1`, `y1`, `created_at`,
 (3, 3, 'a36294f323dc208a9ffba34aa69fe6ab', 0.092, 0.314387, '2018-06-26 05:47:34', '2018-06-26 05:47:34'),
 (4, 4, '685b062c9e4401bde1ff6f4f604877b4', 0.426, 0.033033, '2018-06-26 12:48:45', '2018-06-26 12:48:45'),
 (5, 5, 'fe87af607c230b349012821bad9ca7a4', 0.394286, 0.104286, '2018-06-26 13:24:27', '2018-06-26 13:24:27'),
-(6, 6, 'dbcf7b402aee25724dd5ceb4e6835667', 0.331429, 0.0542857, '2018-06-26 13:43:10', '2018-06-26 13:43:10');
+(6, 6, 'dbcf7b402aee25724dd5ceb4e6835667', 0.331429, 0.0542857, '2018-06-26 13:43:10', '2018-06-26 13:43:10'),
+(7, 7, '4b4f2aa9536c2a76792cb96795970df2', 0.282, 0.166667, '2018-06-26 14:28:14', '2018-06-26 14:28:14');
 
 -- --------------------------------------------------------
 
@@ -172,7 +175,8 @@ INSERT INTO `picture_3s` (`id`, `pic_id`, `path_part`, `x1`, `y1`, `created_at`,
 (3, 3, 'd21651dea6296fe8d120f43034709623', 0.255, 0.127886, '2018-06-26 05:47:36', '2018-06-26 05:47:36'),
 (4, 4, 'e88c754c4a4fb438a41d2dfa642cacc9', 0.574, 0.042042, '2018-06-26 12:48:46', '2018-06-26 12:48:46'),
 (5, 5, 'e8abb41779358b487b7f33b71fc27ceb', 0.687143, 0.104286, '2018-06-26 13:24:28', '2018-06-26 13:24:28'),
-(6, 6, '5ce579766a1e3436da5e3f30c3b89fc5', 0.577143, 0.0542857, '2018-06-26 13:43:13', '2018-06-26 13:43:13');
+(6, 6, '5ce579766a1e3436da5e3f30c3b89fc5', 0.577143, 0.0542857, '2018-06-26 13:43:13', '2018-06-26 13:43:13'),
+(7, 7, '6c0ebeee3e645a10c49e29ebf6547df1', 0.491, 0.159159, '2018-06-26 14:28:15', '2018-06-26 14:28:15');
 
 -- --------------------------------------------------------
 
@@ -468,22 +472,22 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `pictures`
 --
 ALTER TABLE `pictures`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `picture_1s`
 --
 ALTER TABLE `picture_1s`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `picture_2s`
 --
 ALTER TABLE `picture_2s`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `picture_3s`
 --
 ALTER TABLE `picture_3s`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `picture_4s`
 --
